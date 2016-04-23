@@ -1,0 +1,10 @@
+Homophonic Cipher merupakan sebuah algoritma kriptografi klasik. Dalam homophonic cipher, satu karakter dapat disubtitusi menjadi lebih dari 1 karakter atau simbol. Berikut adalah link github implementasi homophonic cipher dalam C++
+https://github.com/nourmajennie/Homophonic-Substitution-Cipher
+Algoritma homophonic cipher yaitu:
+1.Setiap pilihan penggantian karakter huruf dan simbol disimpan dalam sebuah array. Misalnya :
+A[]={"ZI","AB","CC","DG","EU","FP","YH","RK"};
+B[]={"DH","QA"};
+C[]={"AC","DJ","FB"};
+D[]={"ZA","IC","DE","GR"};
+2.Selanjutnya, setiap karakter yang diinputkan, dienkripsi dengan memilih secara random pada array yang telah dibuat sebelumnya. 
+3.Untuk proses dekripsi, dilakukan pencarian terhadap isi – isi pada array. Ketika ada karakter yang sama, maka dicetak abjad yang mensubstitusikan karakter tersebut.
